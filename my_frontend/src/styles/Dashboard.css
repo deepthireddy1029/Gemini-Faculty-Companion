@@ -1,0 +1,139 @@
+/* whole page */
+.dashboard-bg {
+   
+    min-height: 100vh;
+    padding: 30px;
+    background: linear-gradient(135deg, #dde3f7, #f1e4ff, #ddf4e4, #ecfeff);
+    font-family: "Inter", sans-serif;
+}
+
+/* header */
+.dashboard-title {
+    font-size: 2.6rem;
+    font-weight: 900;
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+.dashboard-subtitle {
+    color: #475569;
+    font-size: 1.15rem;
+    margin-bottom: 30px;
+}
+
+/* cards grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+    margin-bottom: 40px;
+}
+
+/* stat card */
+.stat-card {
+    padding: 25px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #f8f9ff, #a8bcd7);
+    box-shadow: 0 6px 15px #0a7f9cea;
+    transition: all .5s ease;
+    cursor: pointer;
+    border-top: 5px solid transparent;
+}
+
+.stat-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* values inside cards */
+.stat-value {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #111827;
+    text-align: center;
+}
+
+.stat-label {    
+    opacity: .8;
+    font-size: 1.05rem;
+    text-align: center;
+}
+
+/* continue section */
+.section-box {
+    background: rgba(255,255,255,0.9);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+/* course rows */
+.course-card {
+    background: #eeeff0;
+    padding: 20px;
+    border-radius: 14px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all .25s;
+}
+
+.course-card:hover {
+    transform: scale(1.02);
+}
+
+/* progress bar */
+.progress-track {
+    background: #e5e7eb;
+    height: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 12px;
+    background: linear-gradient(90deg, #10b981, #34d399);
+    border-radius: 8px;
+}
+
+/* primary button */
+.primary-btn {
+    padding: 12px 22px;
+    background: linear-gradient(90deg, #4f46e5, #6366f1);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 12px;
+    transition: .25s;
+}
+
+.primary-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(79,70,229,.3);
+}
+
+/* help button */
+.help-btn {
+    padding: 12px 22px;
+    background: linear-gradient(90deg, #0ea5e9, #06b6d4);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 12px;
+    transition: .25s;
+}
+
+.help-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(14,165,233,.3);
+}

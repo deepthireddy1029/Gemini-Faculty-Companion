@@ -1,0 +1,153 @@
+/* Page background */
+.register-page {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom right, #5a63f1, #48b6ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  overflow-y: auto;
+}
+
+/* Top bar */
+.register-topbar {
+  width: 100%;
+  padding: 25px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.register-university {
+  font-size: 32px;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.home-btn {
+  background: white;
+  color: #4c52f7;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  background: #e5e7ff;
+  transform: scale(1.06);
+}
+
+/* Main title */
+.register-main-title {
+  color: white;
+  font-size: 38px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+/* Card */
+.register-card {
+  width: 400px;
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  animation: fadeIn 0.6s ease;
+  box-sizing: border-box;
+}
+
+/* Card heading */
+.register-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Inputs and selects */
+.register-input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  margin-bottom: 15px;
+  font-size: 16px;
+  height: 48px;                 /* Fix: makes dropdown same height */
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.register-input:hover,
+.register-input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 8px rgba(79, 70, 229, 0.4);
+}
+
+/* Register button */
+.register-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(to right, #4f46e5, #6d5dfc);
+  transition: 0.3s;
+}
+
+.register-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #6d5dfc, #8b74ff);
+}
+
+/* Success and error */
+.register-error,
+.register-success {
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.register-error {
+  background: #ffe5e5;
+  color: #b91c1c;
+}
+
+.register-success {
+  background: #ddffdd;
+  color: green;
+}
+
+/* Bottom text */
+.register-bottom-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.register-link {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

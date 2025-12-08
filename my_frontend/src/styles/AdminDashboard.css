@@ -1,0 +1,53 @@
+.admin-dashboard-page {
+    min-height: 100vh;
+    padding: 40px 60px;
+    background: linear-gradient(135deg, #dde3f7, #f1e4ff, #ddf4e4, #ecfeff);
+    box-sizing: border-box;
+}
+
+.admin-dashboard-heading {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1e293b;
+}
+
+/* GRID */
+.admin-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+/* CARD */
+.admin-card {
+    background: white;
+    padding: 35px 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+/* HOVER EFFECT */
+.admin-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+}
+
+/* CARD NUMBER */
+.admin-card-number {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #4f46e5;
+}
+
+/* CARD LABEL */
+.admin-card-label {
+    font-size: 20px;
+    color: #475569;
+    font-weight: 600;
+}

@@ -1,0 +1,50 @@
+.notif-page {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #dde3f7, #f1e4ff, #ddf4e4, #ecfeff);
+    padding: 40px 60px;
+}
+
+.notif-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-bottom: 30px;
+}
+
+.notif-list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.notif-card {
+    background: white;
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+
+.notif-card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+}
+
+.notif-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.notif-card-text {
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 1.05rem;
+}
+
+.notif-time {
+    font-size: 0.9rem;
+    color: #777;
+}
